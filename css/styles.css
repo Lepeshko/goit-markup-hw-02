@@ -13,6 +13,7 @@ ul {
 /** =================== HEADER =================== */
 
 .header-logo {
+
    color: var(--NAVY-BLUE, #2E2F42);
    font-family: Raleway;
    font-size: 18px;
@@ -48,7 +49,9 @@ ul {
 
 .main {}
 
-.main-hero {}
+.main-hero {
+   background: var(--NAVY-BLUE, #2E2F42);
+}
 
 .main-hero-h1 {
    color: var(--WHITE, #FFF);
@@ -79,7 +82,17 @@ ul {
 
 .main-skils {}
 
-.main-skils-h2 {}
+.main-skils-h2 {
+   color: var(--NAVY-BLUE, #2E2F42);
+
+   /* Header 3 */
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+}
 
 .main-skils-list {}
 
@@ -87,13 +100,37 @@ ul {
 
 .main-skils-h3 {}
 
-.main-skils-item-text {}
+.main-skils-item-text {
+   color: var(--SLATE, #434455);
+
+   /* Body */
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   /* 150% */
+   letter-spacing: 0.02em;
+}
 
 /** ------------------ OUR TEAM ------------------ */
 
 .main-team {}
 
-.main-team-h2 {}
+.main-team-h2 {
+   color: var(--NAVY-BLUE, #2E2F42);
+   text-align: center;
+
+   /* Header 2 */
+   font-family: Roboto;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.11;
+   /* 111.111% */
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+}
 
 .main-team-list {}
 
@@ -101,16 +138,53 @@ ul {
 
 .main-team-list-img {}
 
-.main-team-h3 {}
+.main-team-h3 {
+   color: var(--NAVY-BLUE, #2E2F42);
+   text-align: center;
 
-.main-team-text {}
+   /* Header 3 */
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   /* 120% */
+   letter-spacing: 0.02em;
+}
+
+.main-team-text {
+   color: var(--SLATE, #434455);
+   text-align: center;
+
+   /* Body */
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   /* 150% */
+   letter-spacing: 0.02em;
+}
 
 
 /** ------------------ PORTFOLIO ------------------ */
 
 .main-portfolio {}
 
-.main-portfolio-h2 {}
+.main-portfolio-h2 {
+   color: var(--NAVY-BLUE, #2E2F42);
+   text-align: center;
+
+   /* Header 2 */
+   font-family: Roboto;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.11;
+   /* 111.111% */
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+}
 
 .main-portfolio-list {}
 
@@ -118,16 +192,70 @@ ul {
 
 .main-portfolio-list-img {}
 
-.main-portfolio-h3 {}
+.main-portfolio-h3 {
+   color: var(--NAVY-BLUE, #2E2F42);
 
-.main-portfolio-text {}
+   /* Header 3 */
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   /* 120% */
+   letter-spacing: 0.02em;
+}
+
+.main-portfolio-text {
+   color: var(--SLATE, #434455);
+
+   /* Body */
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   /* 150% */
+   letter-spacing: 0.02em;
+}
 
 /** =================== FOOTER =================== */
 
-.footer {}
+.footer {
+   background: var(--NAVY-BLUE, #2E2F42);
+}
 
-.footer-logo {}
+.footer-logo {
+   color: var(--CLOUD, #F4F4FD);
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.16;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
 
-.footer-logo-web {}
+.footer-logo-web {
+   color: var(--IRIS, #4D5AE5);
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.16;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
 
-.footer-logo-text {}
+
+.footer-logo-text {
+   color: var(--CLOUD, #F4F4FD);
+
+   /* Body */
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   /* 150% */
+   letter-spacing: 0.02em;
+}
