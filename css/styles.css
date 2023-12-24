@@ -10,6 +10,20 @@ ul {
    list-style: none;
 }
 
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
 /** =================== HEADER =================== */
 
 .header-logo {
@@ -43,6 +57,8 @@ ul {
    letter-spacing: 0.02em;
 }
 
+
+
 /** =================== MAIN =================== */
 
 /** ------------------ HERO ------------------ */
@@ -57,7 +73,6 @@ ul {
    color: var(--WHITE, #FFF);
    text-align: center;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   /* Header 1 */
    font-size: 56px;
    font-weight: 700;
    line-height: 1.07;
@@ -67,7 +82,6 @@ ul {
 .main-hero-button {
    color: var(--WHITE, #FFF);
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   /* Button Text */
    font-family: inherit;
    font-size: 16px;
    font-style: normal;
@@ -84,11 +98,7 @@ ul {
 
 .main-skils-h2 {
    color: var(--NAVY-BLUE, #2E2F42);
-
-   /* Header 3 */
-   font-family: Roboto;
    font-size: 20px;
-   font-style: normal;
    font-weight: 500;
    line-height: 1.2;
    letter-spacing: 0.02em;
@@ -102,14 +112,9 @@ ul {
 
 .main-skils-item-text {
    color: var(--SLATE, #434455);
-
-   /* Body */
-   font-family: Roboto;
    font-size: 16px;
-   font-style: normal;
    font-weight: 400;
    line-height: 1.5;
-   /* 150% */
    letter-spacing: 0.02em;
 }
 
@@ -120,14 +125,9 @@ ul {
 .main-team-h2 {
    color: var(--NAVY-BLUE, #2E2F42);
    text-align: center;
-
-   /* Header 2 */
-   font-family: Roboto;
    font-size: 36px;
-   font-style: normal;
    font-weight: 700;
    line-height: 1.11;
-   /* 111.111% */
    letter-spacing: 0.02em;
    text-transform: capitalize;
 }
@@ -136,33 +136,26 @@ ul {
 
 .main-team-item {}
 
-.main-team-list-img {}
+.main-team-list-img {
+   background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+}
 
 .main-team-h3 {
    color: var(--NAVY-BLUE, #2E2F42);
    text-align: center;
-
-   /* Header 3 */
    font-family: Roboto;
    font-size: 20px;
-   font-style: normal;
    font-weight: 500;
    line-height: 1.2;
-   /* 120% */
    letter-spacing: 0.02em;
 }
 
 .main-team-text {
    color: var(--SLATE, #434455);
    text-align: center;
-
-   /* Body */
-   font-family: Roboto;
    font-size: 16px;
-   font-style: normal;
    font-weight: 400;
    line-height: 1.5;
-   /* 150% */
    letter-spacing: 0.02em;
 }
 
@@ -174,14 +167,9 @@ ul {
 .main-portfolio-h2 {
    color: var(--NAVY-BLUE, #2E2F42);
    text-align: center;
-
-   /* Header 2 */
-   font-family: Roboto;
    font-size: 36px;
-   font-style: normal;
    font-weight: 700;
    line-height: 1.11;
-   /* 111.111% */
    letter-spacing: 0.02em;
    text-transform: capitalize;
 }
@@ -194,29 +182,22 @@ ul {
 
 .main-portfolio-h3 {
    color: var(--NAVY-BLUE, #2E2F42);
-
-   /* Header 3 */
-   font-family: Roboto;
    font-size: 20px;
-   font-style: normal;
    font-weight: 500;
    line-height: 1.2;
-   /* 120% */
    letter-spacing: 0.02em;
 }
 
 .main-portfolio-text {
    color: var(--SLATE, #434455);
-
-   /* Body */
-   font-family: Roboto;
    font-size: 16px;
-   font-style: normal;
    font-weight: 400;
    line-height: 1.5;
-   /* 150% */
    letter-spacing: 0.02em;
 }
+
+
+
 
 /** =================== FOOTER =================== */
 
@@ -249,13 +230,9 @@ ul {
 
 .footer-logo-text {
    color: var(--CLOUD, #F4F4FD);
-
-   /* Body */
-   font-family: Roboto;
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
    line-height: 1.5;
-   /* 150% */
    letter-spacing: 0.02em;
 }
