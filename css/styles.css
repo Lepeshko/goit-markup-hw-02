@@ -156,7 +156,15 @@ ul {
 
 /*? .main-skils-item {} */
 
-/*? .main-skils-subtitle {} */
+.main-skils-subtitle {
+   color: #2E2F42;
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+}
 
 .main-skils-item-text {
    color: #434455;
@@ -182,11 +190,11 @@ ul {
    text-transform: capitalize;
 }
 
-.main-team-list {
+/*? .main-team-list {} */
+
+.main-team-item {
    background-color: #FFFFFF;
 }
-
-/*? .main-team-item {} */
 
 .main-team-list-img {
    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
