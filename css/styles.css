@@ -168,7 +168,9 @@ ul {
 
 /** ------------------ OUR TEAM ------------------ */
 
-/*? .main-team {} */
+.main-team {
+   background-color: #F4F4FD;
+}
 
 .main-team-title {
    color: #2E2F42;
@@ -180,7 +182,9 @@ ul {
    text-transform: capitalize;
 }
 
-/*? .main-team-list {} */
+.main-team-list {
+   background-color: #FFFFFF;
+}
 
 /*? .main-team-item {} */
 
