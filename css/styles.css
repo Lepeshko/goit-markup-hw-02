@@ -63,7 +63,7 @@ ul {
 
 /** ------------------ HERO ------------------ */
 
-.main {}
+/*? .main {} */
 
 .main-hero {
    background: var(--NAVY-BLUE, #2E2F42);
@@ -94,7 +94,7 @@ ul {
 
 /** ------------------ SKILS ------------------ */
 
-.main-skils {}
+/*? .main-skils {} */
 
 .main-skils-h2 {
    color: var(--NAVY-BLUE, #2E2F42);
@@ -104,11 +104,11 @@ ul {
    letter-spacing: 0.02em;
 }
 
-.main-skils-list {}
+/*? .main-skils-list {} */
 
-.main-skils-item {}
+/*? .main-skils-item {} */
 
-.main-skils-h3 {}
+/*? .main-skils-h3 {} */
 
 .main-skils-item-text {
    color: var(--SLATE, #434455);
@@ -120,7 +120,7 @@ ul {
 
 /** ------------------ OUR TEAM ------------------ */
 
-.main-team {}
+/*? .main-team {} */
 
 .main-team-h2 {
    color: var(--NAVY-BLUE, #2E2F42);
@@ -132,9 +132,9 @@ ul {
    text-transform: capitalize;
 }
 
-.main-team-list {}
+/*? .main-team-list {} */
 
-.main-team-item {}
+/*? .main-team-item {} */
 
 .main-team-list-img {
    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
@@ -162,7 +162,8 @@ ul {
 
 /** ------------------ PORTFOLIO ------------------ */
 
-.main-portfolio {}
+
+/* ? .main-portfolio {} */
 
 .main-portfolio-h2 {
    color: var(--NAVY-BLUE, #2E2F42);
@@ -174,11 +175,11 @@ ul {
    text-transform: capitalize;
 }
 
-.main-portfolio-list {}
+/*? .main-portfolio-list {} */
 
-.main-portfolio-item {}
+/*? .main-portfolio-item {} */
 
-.main-portfolio-list-img {}
+/*? .main-portfolio-list-img {} */
 
 .main-portfolio-h3 {
    color: var(--NAVY-BLUE, #2E2F42);
